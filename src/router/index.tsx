@@ -1,8 +1,8 @@
 import React from 'react';
 import { createBrowserRouter, type RouteObject } from 'react-router-dom';
 
-import AboutView from '@/views/AboutView/AboutView';
-import HomeView from '@/views/HomeView/HomeView';
+import AboutView from '@/views/about/AboutView';
+import HomeView from '@/views/home/HomeView';
 
 // 定义路由配置
 const routeConfig: RouteObject[] = [
