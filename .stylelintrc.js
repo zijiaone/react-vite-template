@@ -15,7 +15,7 @@ export default {
     'selector-class-pattern': '^[a-z][a-z0-9_-]+$',
     // 配置未知伪类的检查规则：
     // - 默认启用检查（true）
-    // - 忽略 `/deep/` 伪类（用于 Vue 的深度选择器）
+    // - 忽略 `/deep/` 伪类
     'selector-pseudo-class-no-unknown': [
       true,
       {

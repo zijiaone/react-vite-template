@@ -3,6 +3,19 @@ import { Link } from 'react-router-dom';
 
 import './HomeView.less';
 import HelloWorld from '@/components/hello-world/HelloWorld';
+import { createUser, getUserInfo, updateUser } from '@/services/modules';
+
+getUserInfo();
+
+createUser({
+  age: 20,
+  name: 'Zijia',
+});
+
+updateUser(1, {
+  age: 21,
+  name: 'Zijia',
+});
 
 const HomeView: React.FC = () => {
   return (
