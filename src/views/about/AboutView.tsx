@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './AboutView.less';
-import HelloWorld from '@/components/HelloWorld/HelloWorld';
+import HelloWorld from '@/components/hello-world/HelloWorld';
 
 const AboutView: React.FC = () => {
   return (
