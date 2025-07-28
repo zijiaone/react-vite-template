@@ -145,7 +145,6 @@ export default tseslint.config([
         },
       ],
       'perfectionist/sort-object-types': ['error'],
-      'perfectionist/sort-objects': ['error'],
     },
   },
   // 忽略配置：指定不需要进行 ESLint 检查的文件

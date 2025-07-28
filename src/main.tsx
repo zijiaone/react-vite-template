@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 
 import '@/styles/base.less';
+import './locales';
 
 import App from './App.tsx';
 import { store } from './stores';
