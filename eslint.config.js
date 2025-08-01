@@ -55,7 +55,7 @@ export default tseslint.config([
             ['^@stores'], // 状态管理相关导入
             ['^@common'], // 公共模块导入
             ['^@components'], // 组件导入
-            ['^@views'], // 页面视图导入
+            ['^@pages'], // 页面视图导入
             ['^@utils'], // 工具函数导入
             ['^@helper'], // 辅助函数导入
             ['^@types'], // 类型定义导入

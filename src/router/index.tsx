@@ -1,8 +1,8 @@
 import { createBrowserRouter, type RouteObject } from 'react-router-dom';
 
 import Layout from '@/components/Layout/Layout';
-import AboutView from '@/views/about/About';
-import HomeView from '@/views/home/Home';
+import AboutView from '@/pages/about/About';
+import HomeView from '@/pages/home/Home';
 
 // 定义路由配置
 const routeConfig: RouteObject[] = [
