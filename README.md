@@ -35,6 +35,8 @@ npm run build
 
 ### 状态管理
 
+项目采用 Redux Toolkit 作为状态管理方案，通过创建 slice 定义状态和 reducer，使用 configureStore 配置全局 store，并提供了类型安全的状态访问和操作方式。
+
 ```typescript
 import { useSelector, useDispatch } from 'react-redux';
 import { increment } from '@/stores/counterSlice';

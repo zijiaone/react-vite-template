@@ -28,6 +28,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "vite.config.*", "eslint.config*"],
+  "include": ["src", "vite.config.*", "eslint.config*", "env.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
